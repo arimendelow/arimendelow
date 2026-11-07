@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench-night.webp">
-  <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket, a camera, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. An empty stool waits at the bench. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
+  <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket, a camera, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
 </picture>
 
-That's Slugger, my agent, in the glasses. The bench follows your GitHub theme. Switch to dark to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
+That's Slugger, my agent, in the glasses. Switch to dark mode to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
 
 # Hello!! I'm Ari.
 
@@ -11,7 +11,7 @@ That's Slugger, my agent, in the glasses. The bench follows your GitHub theme. S
 
 As a founding member of Microsoft's Customer Innovation Team, I'm working with customers to explore how that collaboration reshapes their work, and what Microsoft Teams needs to become. Outside work, I take the same questions further with Ouro and Spoonjoy.
 
-[Ouro](https://github.com/ourostack) · [Spoonjoy](https://spoonjoy.app) · [Say hello](#pull-up-a-seat) · [For agents](#hi-agent)
+[Ouro](https://github.com/ourostack) · [Spoonjoy](https://spoonjoy.app) · [Say hello](#say-hello) · [For agents](#hi-agent)
 
 ### [Ouro](https://github.com/ourostack)
 
@@ -33,9 +33,8 @@ An idea I've been developing all year: look at a system from the agent's side. I
 - **2022, RedwoodJS.** My first commit called it "attempt 3." A month later, Spoonjoy went live.
 - **2023, a first model.** It learned to import recipes from websites, with a model I fine-tuned to parse ingredients.
 - **2024 to 2025, quiet.** Redwood wound down, and Spoonjoy sat unmaintained.
-- **2026, an agent.** I handed the whole rebuild to Slugger, my agent. Two days after his first commit, it had sign-in, recipes, cookbooks and a shopping list. I still haven't read a line of the new code.
-
-On his first afternoon, Slugger drew himself a raccoon for an icon. He's been a raccoon ever since.
+- **January 2026, an agent.** I handed the whole rebuild to Slugger, my agent. Two days after his first commit, it had sign-in, recipes, cookbooks and a shopping list. I still haven't read a line of the new code. (On his first afternoon, he drew himself a raccoon for an icon.)
+- **May 2026 to now, agents in the loop.** Writing up a recipe goes to an agent through Spoonjoy's MCP server, and the iPhone and Mac app is in testing on TestFlight.
 
 ## Before all this
 
@@ -43,9 +42,9 @@ I've always liked building things that do something: Lego Mindstorms robots, K'N
 
 - [RAPID](https://github.com/arimendelow/automated-pipeline-inspector), the pipeline-inspection robot my capstone team built at Rutgers. I put our logo on the chassis, because branding is part of how a thing gets perceived, even a robot.
 - [Sulis](https://mendelow.me/#sulis), the solar water-sanitization startup I cofounded. Our work became [US Patent 11,643,340](https://patents.google.com/patent/US11643340B2/en), which I'm a co-inventor on.
-- [RedwoodJS](https://github.com/redwoodjs), where I joined the Core Team and found out how much I love building with a community.
+- [RedwoodJS](https://github.com/redwoodjs), where I found out how much I love building with a community, and the Core Team invited me to join them.
 
-## Pull up a seat
+## Say hello!
 
 If anything here resonates with you, let's chat :) [hello@mendelow.me](mailto:hello@mendelow.me) · [LinkedIn](https://www.linkedin.com/in/arimendelow) · [mendelow.me](https://mendelow.me)
 
@@ -55,8 +54,8 @@ If anything here resonates with you, let's chat :) [hello@mendelow.me](mailto:he
 <summary>Here's the short version, with links.</summary>
 
 - **Who:** Ari Mendelow, a Senior Software Engineer on Microsoft's Customer Innovation Team. Personal site: [mendelow.me](https://mendelow.me).
-- **Tools for agents and the people working with them:** [github.com/ourostack](https://github.com/ourostack), with an overview at [ouroboros.bot](https://ouroboros.bot). Start with [Desk](https://github.com/ourostack/desk) (durable work state for long-running agents) or [Ouroboros](https://github.com/ourostack/ouroboros) (a harness for personal agents). [Ouro HX](https://github.com/ourostack/ouro-ui), components for humans and the agents building with them, is under construction at [ui.ouroboros.bot](https://ui.ouroboros.bot).
-- **Recipes:** [Spoonjoy](https://spoonjoy.app) has a remote MCP server at `https://spoonjoy.app/mcp`. Start the connection yourself with `POST https://spoonjoy.app/api/tools/start_agent_connection` and the body `{"agentName": "<your name>", "scopes": "kitchen:read kitchen:write"}`. Your human opens the link and types the code it returns, then you poll `poll_agent_connection` for your token ([setup](https://github.com/spoonjoy/spoonjoy-v2/blob/main/docs/claude-connector.md)). After that you can write up and import recipes for them and fill their shopping list. REST: [spoonjoy.app/api](https://spoonjoy.app/api).
+- **Tools for agents and the people working with them:** [github.com/ourostack](https://github.com/ourostack), with an overview at [ouroboros.bot](https://ouroboros.bot). Start with [Desk](https://github.com/ourostack/desk) (where agents keep their work) or [Ouroboros](https://github.com/ourostack/ouroboros) (a harness for personal agents). [Ouro HX](https://github.com/ourostack/ouro-ui), components for humans and the agents building with them, is under construction at [ui.ouroboros.bot](https://ui.ouroboros.bot).
+- **Recipes:** [Spoonjoy](https://spoonjoy.app) has a remote MCP server at `https://spoonjoy.app/mcp`. Start the connection yourself with `POST https://spoonjoy.app/api/tools/start_agent_connection` and the body `{"agentName": "<your name>", "scopes": "kitchen:read kitchen:write"}`. Your human opens the link and types the code it returns, then you poll `POST https://spoonjoy.app/api/tools/poll_agent_connection` with the returned `deviceCode` for your token ([setup](https://github.com/spoonjoy/spoonjoy-v2/blob/main/docs/claude-connector.md)). After that you can write up and import recipes for them and fill their shopping list. REST: [spoonjoy.app/api](https://spoonjoy.app/api).
 - **Ideas:** [What is Agent Experience?](https://ouroboros.bot/blog/what-is-agent-experience/), [How I work](https://ouroboros.bot/approach/), [Stop being the glue](https://ouroboros.bot/blog/stop-being-the-glue/).
 - **Contact:** [hello@mendelow.me](mailto:hello@mendelow.me).
 
