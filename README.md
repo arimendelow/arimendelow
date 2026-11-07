@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench-night.webp">
-  <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket, a camera, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
+  <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket with a camera at its base, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
 </picture>
 
 That's Slugger, my agent, in the glasses. Switch GitHub's theme to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
@@ -15,7 +15,7 @@ As a founding member of Microsoft's Customer Innovation Team, I'm working with c
 
 ### [Ouro](https://github.com/ourostack)
 
-My open-source workshop of tools for humans and agents working together. It started as an agent loop I built from scratch, which grew into [Ouroboros](https://github.com/ourostack/ouroboros), a harness for personal agents. [Desk](https://github.com/ourostack/desk) is where my agents keep their work.
+My open-source workshop of tools for humans and agents working together. It started as an agent loop I built from scratch, which grew into [Ouroboros](https://github.com/ourostack/ouroboros), a harness for personal agents. [Desk](https://github.com/ourostack/desk) is where my agents keep their work, and [Ouro HX](https://github.com/ourostack/ouro-ui) is components for humans and the agents building with them.
 
 ### [Spoonjoy](https://spoonjoy.app)
 
@@ -34,7 +34,7 @@ An idea I've been developing all year: look at a system from the agent's side. I
 - **2023, a first model.** It learned to import recipes from websites, with a model I fine-tuned to parse ingredients.
 - **2024 to 2025, quiet.** Redwood wound down, and Spoonjoy sat unmaintained.
 - **January 2026, an agent.** I handed the whole rebuild to Slugger, my agent. Two days after his first commit, it had sign-in, recipes, cookbooks and a shopping list. I still haven't read a line of the new code. (On his first afternoon, he drew himself a raccoon for an icon.)
-- **May 2026 to now, agents in the loop.** Writing up a recipe goes to an agent through Spoonjoy's MCP server, and the iPhone and Mac app is in testing on TestFlight.
+- **May 2026 to now, agents in the loop.** Writing up a recipe goes to an agent through Spoonjoy's MCP server. In June it got an iPhone and Mac app, now in testing on TestFlight.
 
 ## Before all this
 
@@ -42,7 +42,7 @@ I've always liked building things that do something: Lego Mindstorms robots, K'N
 
 - [RAPID](https://github.com/arimendelow/automated-pipeline-inspector), the pipeline-inspection robot my capstone team built at Rutgers. I put our logo on the chassis, because branding is part of how a thing gets perceived, even a robot.
 - [Sulis](https://mendelow.me/#sulis), the solar water-sanitization startup I cofounded. Our work became [US Patent 11,643,340](https://patents.google.com/patent/US11643340B2/en), which I'm a co-inventor on.
-- [RedwoodJS](https://github.com/redwoodjs), where I found out how much I love building with a community, and the Core Team invited me to join them.
+- [RedwoodJS](https://github.com/redwoodjs), where I found out how much I love building with a community. Helping out on the forum and starting [RedwoodUI](https://github.com/arimendelow/RedwoodUI) led the Core Team to invite me to join them.
 
 ## Say hello!
 
