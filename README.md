@@ -3,7 +3,7 @@
   <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket, a camera, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
 </picture>
 
-That's Slugger, my agent, in the glasses. Switch to dark mode to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
+That's Slugger, my agent, in the glasses. Switch GitHub's theme to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
 
 # Hello!! I'm Ari.
 
