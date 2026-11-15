@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench-night.webp">
-  <img src="./assets/workbench-day.webp" width="100%" alt="A painted workbench. Left to right: a brick robot on treads, a K'NEX contraption, a model rocket with a camera at its base, a half-built pipeline-inspection robot, a laptop showing a mushroom risotto recipe, a raccoon in round glasses taking notes, a bowl of mushroom risotto, and a small green snake curled into an O on a stack of books. In light mode it's a sunny afternoon. In dark mode it's night: a lamp is on, the bowl is empty, the snake is asleep, and the raccoon is still writing.">
+  <img src="./assets/workbench-day.webp" width="100%" alt="A workbench in a sunny workshop, with small glass robots building things. A jade one tightens a bolt on a six-wheeled inspection rover, an amber one sets the nose cone on a model rocket, and a blue one clicks toy bricks into a little tracked robot. A small green snake curled into an O watches from a stack of books. In light mode it's afternoon. In dark mode it's night: the lamp is on, the moon is in the window, the rocket is finished and its builder is resting, and the other two are still at work.">
 </picture>
 
-That's Slugger, my agent, in the glasses. Switch GitHub's theme to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
+My agents, building the things I used to build by hand. Switch GitHub's theme to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
 
 # Hello!! I'm Ari.
 
