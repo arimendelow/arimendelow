@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench-night.webp">
-  <img src="./assets/workbench-day.webp" width="100%" alt="A workbench in a sunny workshop, with small glass robots building things. A jade one tightens a bolt on a six-wheeled inspection rover, an amber one sets the nose cone on a model rocket, and a blue one clicks toy bricks into a little tracked robot. A small green snake curled into an O watches from a stack of books. In light mode it's afternoon. In dark mode it's night: the lamp is on, the moon is in the window, the rocket is finished and its builder is resting, and the other two are still at work.">
+  <img src="./assets/workbench-day.webp" width="100%" alt="A workbench in a sunny workshop, with small glass robots building things. A jade one tightens a nut on a six-wheeled inspection rover, an amber one sets the nose cone on a model rocket, and a blue one clicks toy bricks into a little tracked robot. A small green snake curled into an O watches from a stack of books. In light mode it's afternoon. In dark mode it's night: the lamp is on, the moon is in the window, the rocket is finished and its builder is resting, and the other two are still at work.">
 </picture>
 
 My agents, building the things I used to build by hand. Switch GitHub's theme to see who's still up. ([day](./assets/workbench-day.webp) · [night](./assets/workbench-night.webp))
